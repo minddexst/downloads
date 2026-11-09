@@ -36,7 +36,7 @@ brew install ffmpeg
 Installation : 
 Clone the repository:
 
-git clone [https://github.com/votre-pseudo/nom-du-repo.git](https://github.com/votre-pseudo/nom-du-repo.git)
+git clone [https://github.com/minddexst/downloads.git](https://github.com/minddexst/downloads.git)
 cd nom-du-repo
 
 Create and activate a virtual environment:
