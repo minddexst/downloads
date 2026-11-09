@@ -13,6 +13,7 @@ A lightweight, fast, and interactive command-line video and audio downloader bui
 - **Automatic Organization:** Saves downloaded media directly into a local `downloads/` directory.
 
 ## ⚠️ Disclaimer
+
 This project is created strictly for educational purposes and personal offline media backup. Ensure you comply with the terms of service of the content platforms and copyright laws in your country.
 
 ## 🛠️ Prerequisites
@@ -22,46 +23,48 @@ This tool requires **FFmpeg** to process and merge media streams.
 - **Windows (via Winget):**
   ```powershell
   winget install Gyan.FFmpeg
+Linux (Ubuntu/Debian):
 
-- Linux (Ubuntu/Debian):
-
+Bash
 sudo apt update && sudo apt install ffmpeg -y
+macOS (via Homebrew):
 
-- macOS (via Homebrew):
-
+Bash
 brew install ffmpeg
-
 (Note: Restart your terminal after installation to update the PATH)
 
-
-Installation : 
+⚙️ Installation
 Clone the repository:
 
+Bash
 git clone [https://github.com/minddexst/downloads.git](https://github.com/minddexst/downloads.git)
-cd nom-du-repo
-
+cd downloads
 Create and activate a virtual environment:
 
-Windows:
-PowerShell :
+Windows (PowerShell):
+
+PowerShell
 python -m venv venv
-
 .\venv\Scripts\Activate.ps1
-
 Linux / macOS:
+
+Bash
 python3 -m venv venv
-
 source venv/bin/activate
-
 Install dependencies:
 
+Bash
 pip install -r requirements.txt
-
+🎮 Usage
 Run the script:
 
-windows: python main.py
+Windows:
 
-Linux/MacOS : python3 main.py
+PowerShell
+python main.py
+Linux / macOS:
 
-License
+Bash
+python3 main.py
+📄 License
 Distributed under the MIT License. See LICENSE for more information.
