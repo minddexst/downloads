@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Downloaded Media Files
+downloads/
+*.mp4
+*.mp3
+*.webm
+*.m4a
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
