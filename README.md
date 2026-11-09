@@ -26,45 +26,66 @@ This tool requires **FFmpeg** to process and merge media streams.
 Linux (Ubuntu/Debian):
 
 Bash
+
 sudo apt update && sudo apt install ffmpeg -y
+
 macOS (via Homebrew):
 
 Bash
+
 brew install ffmpeg
+
 (Note: Restart your terminal after installation to update the PATH)
 
 ⚙️ Installation
+
 Clone the repository:
 
 Bash
 git clone [https://github.com/minddexst/downloads.git](https://github.com/minddexst/downloads.git)
+
 cd downloads
+
 Create and activate a virtual environment:
 
 Windows (PowerShell):
 
 PowerShell
+
 python -m venv venv
+
 .\venv\Scripts\Activate.ps1
+
 Linux / macOS:
 
 Bash
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 Install dependencies:
 
 Bash
+
 pip install -r requirements.txt
+
 🎮 Usage
+
 Run the script:
 
 Windows:
 
 PowerShell
+
 python main.py
+
 Linux / macOS:
 
 Bash
+
 python3 main.py
+
 📄 License
+
 Distributed under the MIT License. See LICENSE for more information.
