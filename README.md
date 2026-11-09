@@ -5,14 +5,15 @@ A lightweight, fast, and interactive command-line video and audio downloader bui
 ## 🚀 Features
 
 - **Multi-Platform Support:** Automatically detects and downloads content from YouTube, TikTok, Instagram, and Twitter/X.
-Disclaimer
-This project is created strictly for educational purposes and personal offline media backup. Ensure you comply with the terms of service of the content platforms and copyright laws in your country.
 - **Flexible Formats:**
   - `1`: Video only
   - `2`: Audio extraction (MP3 at 192 kbps)
   - `3`: Combined Video + Audio (Best available quality)
 - **Clean Interface:** Modern CLI prompts, real-time download progress, and speed indicators.
 - **Automatic Organization:** Saves downloaded media directly into a local `downloads/` directory.
+
+## ⚠️ Disclaimer
+This project is created strictly for educational purposes and personal offline media backup. Ensure you comply with the terms of service of the content platforms and copyright laws in your country.
 
 ## 🛠️ Prerequisites
 
